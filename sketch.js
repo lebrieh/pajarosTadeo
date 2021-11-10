@@ -38,7 +38,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background(255);
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
